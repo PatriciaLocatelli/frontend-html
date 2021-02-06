@@ -1,0 +1,37 @@
+
+/* FONTES */
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url(../fonts/OpenSans-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'OpenSans-Bold';
+    src: url(../fonts/OpenSans-Bold.ttf) format('truetype');
+
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url(../fonts/OpenSans-Bold.ttf) format('truetype'), 
+    url(../fonts/OpenSans-Regular.ttf) format('truetype'),
+    url(../fonts/OpenSans-SemiBold.ttf) format('truetype');
+
+    font-weight: 600;
+    font-style: normal;
+  }
+
+/* TOP MENU */
+.top-menu{
+    background-color:#F1F1F1;
+    height: 32px;
+}
+.titulos-contatos{
+    text-align: left;
+    font-family: 'OpenSans-Regular';
+    font-size:12px;
+    letter-spacing: 0.24px;
+}
