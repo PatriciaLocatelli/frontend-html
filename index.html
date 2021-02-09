@@ -13,19 +13,19 @@
 
 <body>
     <div class="top-menu">
-        <div class="contatos container">
+        <div class="container">
             <div class="row">
-                <div class="col-sm-8">
+                <div class="col-sm-4 contatos">
                     <img src="assets/img/phone.svg">
-                    <p class="titulos-contatos">(51)9 9920 0350</p>
-                    <img src="assets/img/whats.svg">
+                    <p class="titulos-contatos">(51) 9 9920 0350</p>
+                    <img class="img-icons" src="assets/img/whats.svg">
                     <p class="titulos-contatos">(51) 9 9920 0350</p>
                 </div>
-                <div class="col-sm-4">
-                    <nav>
-                        LISTA DE DESEJOS
-                        FALE CONOSCO
-                        TROCAS E DEVOLUÇÕES
+                <div class="nav-moovin col-sm-8">
+                    <nav class="nav">
+                        <li class="nav-item">LISTA DE DESEJOS</li>
+                        <li class="nav-item">FALE CONOSCO</li>
+                        <li class="nav-item">TROCAS E DEVOLUÇÕES</li>
                     </nav>
                 </div>
             </div>
@@ -33,7 +33,40 @@
         
     </div>
     <div class="header-menu">
-
+        <div class="container">
+            <div class="row header-segundo">
+                <div class=col-sm-2>
+                    <img src="assets/img/logo.svg">
+                </div>
+                <div class="col-sm-7">
+                    <div class="procura input-group-prepend">
+                        <input class="form-control py-2 rounded-pill mr-1" id="example-search-input" type="text" placeholder="O que você está procurando?" >
+                        <span class="icone-search input-group-append">
+                                <img src="assets/img/search.svg">
+                        </span>
+                    </div>
+                </div>
+                <div class="col-sm-2 menu">
+                    <div class="dropdown">
+                        <button class="dropbtn">Entrar <img src="assets/img/chevron-down.svg"></button>
+                        <div class="dropdown-content">
+                          <a href="#" actived>Minha conta</a>
+                          <a href="#">Meus pedidos</a>
+                          <a href="#">Lista de desejos</a>
+                        </div>
+                      </div>                      
+                </div>
+                <div class=col-sm-1>
+                    <img src="assets/img/Path1.svg">
+                    <li class="list-inline-item">
+                        <a class="btn btn-xs btn-icon btn-text-secondary" role="button">
+                          <span class="fas fa-shopping-cart btn-icon__inner"></span>
+                          <span class="numero-circulo  rounded-circle">+50</span>
+                        </a>
+                      </li>
+                </div>
+            </div>
+        </div>
     </div>    
     
 </body>
